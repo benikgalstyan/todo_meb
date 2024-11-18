@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117156313378",
+    "project_id": "todo-meb",
+    "storage_bucket": "todo-meb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117156313378:android:90d10d6719157bae824d7b",
+        "android_client_info": {
+          "package_name": "com.example.todo_meb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4nqg-BvK5K9o4eCY9HUCSfVOYibxcI9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
