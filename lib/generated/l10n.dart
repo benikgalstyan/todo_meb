@@ -199,6 +199,36 @@ class S {
       args: [],
     );
   }
+
+  /// `No pending tasks`
+  String get noPendingTasks {
+    return Intl.message(
+      'No pending tasks',
+      name: 'noPendingTasks',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No completed tasks`
+  String get noCompletedTasks {
+    return Intl.message(
+      'No completed tasks',
+      name: 'noCompletedTasks',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No tasks available`
+  String get noTasksAvailable {
+    return Intl.message(
+      'No tasks available',
+      name: 'noTasksAvailable',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
