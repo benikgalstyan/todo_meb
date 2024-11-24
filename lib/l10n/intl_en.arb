@@ -13,5 +13,8 @@
   "image": "Attach image",
   "pendingTasks": "Pending Tasks",
   "completed": "Completed",
-  "taskDeleted": "Task deleted"
+  "taskDeleted": "Task deleted",
+  "noPendingTasks": "No pending tasks",
+  "noCompletedTasks": "No completed tasks",
+  "noTasksAvailable": "No tasks available"
 }

@@ -33,6 +33,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "image": MessageLookupByLibrary.simpleMessage("Attach image"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "nameOfTask": MessageLookupByLibrary.simpleMessage("Task name"),
+        "noCompletedTasks":
+            MessageLookupByLibrary.simpleMessage("No completed tasks"),
+        "noPendingTasks":
+            MessageLookupByLibrary.simpleMessage("No pending tasks"),
+        "noTasksAvailable":
+            MessageLookupByLibrary.simpleMessage("No tasks available"),
         "pendingTasks": MessageLookupByLibrary.simpleMessage("Pending Tasks"),
         "personal": MessageLookupByLibrary.simpleMessage("Personal"),
         "taskDeleted": MessageLookupByLibrary.simpleMessage("Task deleted"),
