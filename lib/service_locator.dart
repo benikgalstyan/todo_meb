@@ -8,6 +8,8 @@ import 'package:todo_meb/data/service/network_service/network_service.dart';
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'package:logger/logger.dart';
+import 'package:todo_meb/data/service/storage_service/firestore_service.dart';
+import 'package:todo_meb/data/service/storage_service/firestore_service_impl.dart';
 
 final getIt = GetIt.instance;
 final getDio = getIt.get<Dio>();
@@ -24,6 +26,7 @@ void setupServicesLocator() {
   getIt.registerSingleton<CompositeLogger>(
     CompositeLoggerImpl(logger: Logger()),
   );
+  getIt.registerSingleton<FirestoreService>(FirestoreServiceImpl());
 
   getIt.registerSingleton<NetworkService>(networkService);
   getIt.registerSingleton<Repository>(
