@@ -21,10 +21,10 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const MainScreen(),
       );
     },
-    SecondRoute.name: (routeData) {
+    TaskManageRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: const SecondScreen(),
+        child: const TaskManageScreen(),
       );
     },
   };
@@ -45,15 +45,15 @@ class MainRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
-/// [SecondScreen]
-class SecondRoute extends PageRouteInfo<void> {
-  const SecondRoute({List<PageRouteInfo>? children})
+/// [TaskManageScreen]
+class TaskManageRoute extends PageRouteInfo<void> {
+  const TaskManageRoute({List<PageRouteInfo>? children})
       : super(
-          SecondRoute.name,
+          TaskManageRoute.name,
           initialChildren: children,
         );
 
-  static const String name = 'SecondRoute';
+  static const String name = 'TaskManageRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
