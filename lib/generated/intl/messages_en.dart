@@ -21,5 +21,22 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "addDescription":
+            MessageLookupByLibrary.simpleMessage("Add description..."),
+        "allTasks": MessageLookupByLibrary.simpleMessage("All"),
+        "attachFile": MessageLookupByLibrary.simpleMessage("Attach file"),
+        "completed": MessageLookupByLibrary.simpleMessage("Completed"),
+        "create": MessageLookupByLibrary.simpleMessage("Create"),
+        "deadline": MessageLookupByLibrary.simpleMessage("Deadline:"),
+        "delete": MessageLookupByLibrary.simpleMessage("Delete"),
+        "image": MessageLookupByLibrary.simpleMessage("Attach image"),
+        "login": MessageLookupByLibrary.simpleMessage("Login"),
+        "nameOfTask": MessageLookupByLibrary.simpleMessage("Task name"),
+        "pendingTasks": MessageLookupByLibrary.simpleMessage("Pending Tasks"),
+        "personal": MessageLookupByLibrary.simpleMessage("Personal"),
+        "taskDeleted": MessageLookupByLibrary.simpleMessage("Task deleted"),
+        "urgent": MessageLookupByLibrary.simpleMessage("Urgent"),
+        "work": MessageLookupByLibrary.simpleMessage("Work")
+      };
 }

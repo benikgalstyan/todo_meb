@@ -1,2 +1,17 @@
 {
+  "login": "Login",
+  "allTasks": "All",
+  "work": "Work",
+  "personal": "Personal",
+  "nameOfTask": "Task name",
+  "create": "Create",
+  "addDescription": "Add description...",
+  "attachFile": "Attach file",
+  "deadline": "Deadline:",
+  "urgent": "Urgent",
+  "delete": "Delete",
+  "image": "Attach image",
+  "pendingTasks": "Pending Tasks",
+  "completed": "Completed",
+  "taskDeleted": "Task deleted"
 }
